@@ -35,10 +35,10 @@
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
+        <a class="nav-link" href="mahasiswa">Mahasiswa</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/prodi">Prodi</a>
+        <a class="nav-link" href="prodi">Prodi</a>
       </li>
     </ul>
   </div>
