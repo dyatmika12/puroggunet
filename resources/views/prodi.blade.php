@@ -14,8 +14,8 @@
     <tr class="table-active">
       <th scope="row">{{$tabelprodi->id}}</th>
       <td>{{$tabelprodi->nama}}</td>
-      <td><a href="prodi/{{$tabelprodi->id}}/edit" class="btn btn-info">Edit</a></td>
-      <td><form action="prodi/{{$tabelprodi->id}}" method="POST">
+      <td><a href="public/prodi/{{$tabelprodi->id}}/edit" class="btn btn-info">Edit</a></td>
+      <td><form action="public/prodi/{{$tabelprodi->id}}" method="POST">
                   @csrf
                   @method('DELETE')
                   <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
@@ -23,7 +23,7 @@
       @endforeach
   </tbody>
 </table>
-<a  href="prodi/create" class="btn btn-success">Tambah</button>
+<a  href="public/prodi/create" class="btn btn-success">Tambah</button>
 @include('endbody')
 	<body>
 </html>

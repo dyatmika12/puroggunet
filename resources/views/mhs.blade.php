@@ -25,7 +25,7 @@
       @endforeach
   </tbody>
 </table>
-<a  href="mahasiswa/create" class="btn btn-success">Tambah</button>
+<a  href="public/mahasiswa/create" class="btn btn-success">Tambah</button>
 @include('endbody')
 	<body>
 </html>
