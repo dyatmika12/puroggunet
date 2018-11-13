@@ -1,6 +1,6 @@
 @include('header')
 	<body>
-    <form action="/prodi/{{$editdataprodi->id}}" method="POST">
+    <form action="prodi/{{$editdataprodi->id}}" method="POST">
     @method('PUT')
     @csrf
        <div class="form-group">

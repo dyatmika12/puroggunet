@@ -16,8 +16,8 @@
       <td>{{$tabelmhs->nim}}</td>
       <td>{{$tabelmhs->nama}}</td>
       <td>{{$tabelmhs->prodi->nama}}</td>
-      <td><a href="/mahasiswa/{{$tabelmhs->id}}/edit" class="btn btn-info">Edit</a></td>
-      <td><form action="/mahasiswa/{{$tabelmhs->id}}" method="POST">
+      <td><a href="mahasiswa/{{$tabelmhs->id}}/edit" class="btn btn-info">Edit</a></td>
+      <td><form action="mahasiswa/{{$tabelmhs->id}}" method="POST">
                   @csrf
                   @method('DELETE')
                   <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
@@ -25,7 +25,7 @@
       @endforeach
   </tbody>
 </table>
-<a  href="/mahasiswa/create" class="btn btn-success">Tambah</button>
+<a  href="mahasiswa/create" class="btn btn-success">Tambah</button>
 @include('endbody')
 	<body>
 </html>
