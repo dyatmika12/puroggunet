@@ -1,6 +1,6 @@
 @include('header')
 	<body>
-    <form action="public/prodi" method="POST">
+    <form action="/public/prodi" method="POST">
     @csrf
       <div class="form-group">
       <label for="nama">Nama Prodi</label>
